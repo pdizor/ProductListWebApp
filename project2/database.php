@@ -180,14 +180,4 @@ function compare_name($product1, $product2) {
     return strcmp($product1[1], $product2[1]);
 }
 
-// get a product id from table id
-function getProductId($id) {
-    return ($id * 1000) + ($id * 2);
-}
-
-// get a table id from product id
-function getID($proudctID) {
-
-}
-
 ?>
